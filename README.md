@@ -40,5 +40,5 @@ Mày chỉ cần clone cái repo này về rồi mở file `index.html` là xong
 
 ```bash
 git clone https://github.com/khoadangkim2014-arch/hyprland.io.git
-cd hyprweb-desktop
+cd hyprland.io
 # Mở file index.html bằng trình duyệt của mày
