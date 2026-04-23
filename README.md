@@ -39,6 +39,6 @@
 Mày chỉ cần clone cái repo này về rồi mở file `index.html` là xong:
 
 ```bash
-git clone [https://github.com/username/hyprweb-desktop.git](https://github.com/username/hyprweb-desktop.git)
+git clone https://github.com/khoadangkim2014-arch/hyprland.io.git
 cd hyprweb-desktop
 # Mở file index.html bằng trình duyệt của mày
