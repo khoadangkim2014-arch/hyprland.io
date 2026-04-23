@@ -1,38 +1,61 @@
 <div align="center">
 
-# ❄️ HyprWeb-Desktop
-### A Highly Customizable Hyprland-inspired Web Interface
-   
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
-[![Stars](https://img.shields.io/badge/stars-⭐⭐⭐⭐⭐-brightgreen)]()
+# 🌌 HyprWeb: The Next-Gen Tiling Desktop Interface
+  
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=32&pause=1000&color=CBA6F7&center=true&vCenter=true&width=600&lines=HYPRLAND+ON+THE+WEB;So+Smooth%2C+It+Hurts.;Dynamic+Tiling+Architecture;Catppuccin+Mocha+Aesthetics" alt="Typing SVG" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=B4BEFE&center=true&vCenter=true&width=500&lines=So+Smooth%2C+It+Hurts.;Dynamic+Tiling+Layout;Interactive+Workspaces;Super+Key+Launcher+Ready" alt="Typing SVG" />
+<p align="center">
+  <img src="https://img.shields.io/github/stars/user/repo?style=for-the-badge&logo=github&color=b4befe" />
+  <img src="https://img.shields.io/github/forks/user/repo?style=for-the-badge&logo=git&color=89b4fa" />
+  <img src="https://img.shields.io/github/last-commit/user/repo?style=for-the-badge&logo=git-lfs&color=f5c2e7" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&logo=github" />
+</p>
+
+---
+
+### 🚀 "Trải nghiệm sức mạnh của Hyprland ngay trên trình duyệt của mày."
+
+[Xem Demo ngay]() • [Báo lỗi]() • [Yêu cầu tính năng]()
 
 </div>
 
 ---
 
-## 🚀 Tính năng nổi bật (Features)
+## 📖 Giới thiệu (Overview)
+**HyprWeb** là một dự án mô phỏng môi trường làm việc (Desktop Environment) của **Hyprland** (một Wayland compositor cực hot trên Linux). Dự án này được xây dựng hoàn toàn bằng công nghệ web hiện đại, tập trung vào sự mượt mà, hiệu ứng neon và khả năng tùy biến vô hạn.
 
-* **✨ Hiệu ứng Hyprland:** Viền Gradient phát sáng (Glow border) và xoay màu liên tục.
-* **🪟 Quản lý cửa sổ:** Tự động nổi lên (Top-layer) khi nhấp chuột.
-* **⌨️ Rofi Launcher:** Nhấn phím `Super` (Windows) để mở thanh tìm kiếm cực mượt.
-* **🖱️ Drag & Drop:** Nắm kéo các cửa sổ tự do trên màn hình.
-* **🌌 Workspaces:** Hỗ trợ nhiều không gian làm việc với hiệu ứng trượt (Slide animation).
+Mày không cần cài Arch Linux, chỉ cần một cái trình duyệt là đủ để tận hưởng vibe "hacker".
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Tính năng đỉnh cao (Features)
 
-<div align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-</div>
+### 🪟 Quản lý cửa sổ thông minh
+- **Focus Master:** Nhấp chuột vào bất kỳ cửa sổ nào, nó sẽ tự động "nổi" lên lớp trên cùng với hiệu ứng đổ bóng và viền phát sáng.
+- **Drag & Drop:** Tự do di chuyển các cửa sổ bằng cách nắm giữ thanh tiêu đề (Window Bar).
+- **Fast Close:** Đóng nhanh các ứng dụng bằng nút "Kill" màu đỏ đặc trưng.
+
+### ⌨️ Trải nghiệm bàn phím (Keyboard Centric)
+- **Super Launcher:** Nhấn phím `Windows` (Super) để gọi ngay thanh Launcher (Rofi-style) với hiệu ứng làm mờ nền (Backdrop Blur).
+- **Hotkeys:** Hỗ trợ các phím tắt nhanh giúp thao tác như một pro-user.
+
+### 🎨 Thẩm mỹ Catppuccin
+- Sử dụng bảng màu **Mocha** của hệ sinh thái Catppuccin danh tiếng.
+- Hiệu ứng **Border Glow** xoay vòng 360 độ liên tục, tạo cảm giác cực kỳ hi-tech.
 
 ---
+
+## 🛠️ Cấu trúc dự án (Architecture)
+
+```text
+hyprweb/
+├── index.html         # Linh hồn của dự án
+├── style/
+│   └── animations.css # Nơi lưu trữ các hiệu ứng "bay lắc"
+├── js/
+│   ├── core.js        # Xử lý logic cửa sổ và z-index
+│   └── launcher.js    # Logic cho phím tắt và tìm kiếm
+└── assets/            # Icon, hình nền và font chữ
 
 ## 🖥️ Cài đặt nhanh (Quick Start)
 
