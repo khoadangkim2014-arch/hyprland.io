@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌌 HyprWeb: The Next-Gen Tiling Desktop Interface
+THIS REPO IS MOVED
   
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=32&pause=1000&color=CBA6F7&center=true&vCenter=true&width=600&lines=HYPRLAND+ON+THE+WEB;So+Smooth%2C+It+Hurts.;Dynamic+Tiling+Architecture;Catppuccin+Mocha+Aesthetics" alt="Typing SVG" />
 
